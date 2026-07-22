@@ -7,7 +7,7 @@ body {
 
 /* Encabezado */
 header {
-  background: #00264d; color: white;
+  background: #2c2c2c; color: white;
   text-align: center; padding: 2em;
 }
 header img.perfil {
@@ -19,7 +19,7 @@ header img.perfil {
 nav ul {
   list-style: none; display: flex; justify-content: center;
   gap: 2em; margin: 0; padding: 1em;
-  background: #004080;
+  background: #3a3a3a;
 }
 nav a {
   color: white; text-decoration: none; font-weight: bold;
@@ -44,9 +44,11 @@ section h2 {
 }
 .card h3 { margin-top: 0; }
 
-/* Pie de página */
+/* Pie de página negro */
 footer {
-  background: #00264d; color: white;
-  text-align: center; padding: 1em;
+  background: #000000; /* negro */
+  color: white;
+  text-align: center;
+  padding: 1em;
   margin-top: 2em;
 }
