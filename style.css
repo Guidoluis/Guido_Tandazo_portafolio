@@ -1,34 +1,52 @@
+/* Estilos generales */
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0; padding: 0;
   background: #f4f6f9; color: #333;
 }
+
+/* Encabezado */
 header {
   background: #00264d; color: white;
-  padding: 1em;
+  text-align: center; padding: 2em;
 }
-nav ul {
-  list-style: none; display: flex; justify-content: center;
-  gap: 2em; margin: 0; padding: 0;
-}
-nav a { color: white; text-decoration: none; font-weight: bold; }
-.home { text-align: center; padding: 3em; }
-.home .perfil {
+header img.perfil {
   width: 150px; height: 150px;
   border-radius: 50%; margin-bottom: 1em;
 }
+
+/* Navegación */
+nav ul {
+  list-style: none; display: flex; justify-content: center;
+  gap: 2em; margin: 0; padding: 1em;
+  background: #004080;
+}
+nav a {
+  color: white; text-decoration: none; font-weight: bold;
+}
+nav a:hover { text-decoration: underline; }
+
+/* Secciones */
 section {
   margin: 2em auto; padding: 2em;
   max-width: 800px; background: white;
   border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+section h2 {
+  color: #004080;
+}
+
+/* Tarjetas de proyectos */
 .card {
   border: 1px solid #ddd; border-radius: 6px;
   padding: 1em; margin-bottom: 1em;
   background: #fafafa;
 }
+.card h3 { margin-top: 0; }
+
+/* Pie de página */
 footer {
   background: #00264d; color: white;
   text-align: center; padding: 1em;
+  margin-top: 2em;
 }
-a:hover { text-decoration: underline; }
