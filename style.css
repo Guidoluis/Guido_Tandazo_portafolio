@@ -6,13 +6,41 @@ body {
 }
 
 /* Encabezado */
-header {
-  background: #2c2c2c; color: white;
-  text-align: center; padding: 2em;
+/* Barra de navegación arriba */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin: 0;
+  padding: 1em;
+  background: #3a3a3a; /* gris oscuro */
 }
-header img.perfil {
-  width: 150px; height: 150px;
-  border-radius: 50%; margin-bottom: 1em;
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover { text-decoration: underline; }
+
+/* Contenedor con foto + nombre */
+.header-content {
+  display: flex;
+  align-items: center; /* centra verticalmente */
+  justify-content: center; /* centra horizontalmente */
+  gap: 2em;
+  background: #2c2c2c; /* gris oscuro */
+  color: white;
+  padding: 2em;
+}
+.perfil {
+  width: 120px; /* tamaño normal */
+  height: 120px;
+  border-radius: 50%;
+}
+.header-content h1 {
+  font-size: 2em;
+  margin: 0;
 }
 
 /* Navegación */
