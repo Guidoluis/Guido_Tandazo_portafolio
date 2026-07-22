@@ -1,0 +1,29 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0; padding: 0;
+  background: #f9f9f9; color: #333;
+}
+header {
+  background: #004080; color: white;
+  text-align: center; padding: 2em;
+}
+nav {
+  background: #eee; padding: 1em;
+  text-align: center;
+}
+nav a {
+  margin: 0 1em; color: #004080;
+  text-decoration: none; font-weight: bold;
+}
+section {
+  margin: 2em; padding: 1.5em;
+  background: white; border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.card {
+  border: 1px solid #ddd; border-radius: 6px;
+  padding: 1em; margin-bottom: 1em;
+  background: #fafafa;
+}
+.card h3 { margin-top: 0; }
+a:hover { text-decoration: underline; }
