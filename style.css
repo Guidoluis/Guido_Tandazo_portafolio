@@ -1,82 +1,78 @@
-/* Estilos generales */
+/* ====== ESTILOS GENERALES ====== */
 body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0; padding: 0;
-  background: #f4f6f9; color: #333;
+  font-family: 'Roboto', sans-serif; /* Fuente moderna y clara */
+  margin: 0; padding: 0;             /* Elimina márgenes por defecto */
+  background: #f4f6f9;                /* Color de fondo gris claro */
+  color: #333;                        /* Texto gris oscuro */
 }
 
-/* Encabezado */
-/* Barra de navegación arriba */
+/* ====== BARRA DE NAVEGACIÓN ====== */
 nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 2em;
-  margin: 0;
-  padding: 1em;
-  background: #3a3a3a; /* gris oscuro */
+  list-style: none;                   /* Quita viñetas de la lista */
+  display: flex;                      /* Activa flexbox para organizar en fila */
+  justify-content: center;            /* Centra los enlaces horizontalmente */
+  gap: 2em;                           /* Espacio entre enlaces */
+  margin: 0; padding: 1em;
+  background: #3a3a3a;                /* Fondo gris oscuro */
 }
 nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+  color: white;                       /* Texto blanco */
+  text-decoration: none;              /* Sin subrayado */
+  font-weight: bold;                  /* Letras más gruesas */
 }
-nav a:hover { text-decoration: underline; }
+nav a:hover { text-decoration: underline; } /* Efecto al pasar el mouse */
 
-/* Contenedor con foto + nombre */
+/* ====== ENCABEZADO CON FOTO + NOMBRE ====== */
 .header-content {
-  display: flex;
-  align-items: center; /* centra verticalmente */
-  justify-content: center; /* centra horizontalmente */
-  gap: 2em;
-  background: #2c2c2c; /* gris oscuro */
-  color: white;
-  padding: 2em;
+  display: flex;                      /* Activa flexbox */
+  align-items: center;                /* Centra verticalmente foto y texto */
+  justify-content: flex-start;        /* Foto a la izquierda, texto a la derecha */
+  gap: 2em;                           /* Espacio entre foto y texto */
+  background: #2c2c2c;                /* Fondo gris oscuro */
+  color: white;                       /* Texto blanco */
+  padding: 2em;                       /* Espacio interno */
 }
 .perfil {
-  width: 120px; /* tamaño normal */
-  height: 120px;
-  border-radius: 50%;
+  width: 140px; height: 140px;        /* Tamaño normal de la foto */
+  border-radius: 50%;                 /* Foto circular */
 }
-.header-content h1 {
-  font-size: 2em;
-  margin: 0;
+.info h1 {
+  font-size: 2em;                     /* Tamaño grande para el nombre */
+  margin: 0;                          /* Elimina espacio extra */
+}
+.info p {
+  font-size: 1.2em;                   /* Subtítulo más pequeño */
+  margin: 0.5em 0 0 0;                /* Espacio arriba del subtítulo */
 }
 
-/* Navegación */
-nav ul {
-  list-style: none; display: flex; justify-content: center;
-  gap: 2em; margin: 0; padding: 1em;
-  background: #3a3a3a;
-}
-nav a {
-  color: white; text-decoration: none; font-weight: bold;
-}
-nav a:hover { text-decoration: underline; }
-
-/* Secciones */
+/* ====== SECCIONES ====== */
 section {
-  margin: 2em auto; padding: 2em;
-  max-width: 800px; background: white;
-  border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 2em auto;                   /* Espacio alrededor */
+  padding: 2em;                       /* Espacio interno */
+  max-width: 800px;                   /* Ancho máximo para que no se vea demasiado ancho */
+  background: white;                  /* Fondo blanco para contraste */
+  border-radius: 8px;                 /* Bordes redondeados */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra ligera */
 }
 section h2 {
-  color: #004080;
+  color: #004080;                     /* Azul petróleo para títulos */
 }
 
-/* Tarjetas de proyectos */
+/* ====== TARJETAS DE PROYECTOS ====== */
 .card {
-  border: 1px solid #ddd; border-radius: 6px;
-  padding: 1em; margin-bottom: 1em;
-  background: #fafafa;
+  border: 1px solid #ddd;             /* Borde gris claro */
+  border-radius: 6px;                 /* Bordes redondeados */
+  padding: 1em;                       /* Espacio interno */
+  margin-bottom: 1em;                 /* Espacio entre tarjetas */
+  background: #fafafa;                /* Fondo gris muy claro */
 }
-.card h3 { margin-top: 0; }
+.card h3 { margin-top: 0; }           /* Elimina espacio extra arriba */
 
-/* Pie de página negro */
+/* ====== PIE DE PÁGINA ====== */
 footer {
-  background: #000000; /* negro */
-  color: white;
-  text-align: center;
-  padding: 1em;
-  margin-top: 2em;
+  background: #000000;                /* Negro sólido */
+  color: white;                       /* Texto blanco */
+  text-align: center;                 /* Centra el texto */
+  padding: 1em;                       /* Espacio interno */
+  margin-top: 2em;                    /* Separación respecto al contenido */
 }
