@@ -1,57 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guido Tandazo</title>
-  <link rel="stylesheet" href="style.css">
+  <!-- Configuración básica del documento -->
+  <meta charset="UTF-8"> <!-- Define que el texto usa caracteres latinos (acentos, ñ, etc.) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que la página se adapte a móviles -->
+  <title>Portafolio de Guido</title> <!-- Título que aparece en la pestaña del navegador -->
+
+  <!-- Vinculamos el archivo CSS externo -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!--==================== HEADER ====================-->
-<header class="header" id="header">
-  <!-- Barra de navegación arriba -->
-  <nav class="nav">
-    <ul>
-      <li><a href="#home">Inicio</a></li>
-      <li><a href="#about">Sobre mí</a></li>
-      <li><a href="#skills">Habilidades</a></li>
-      <li><a href="#projects">Proyectos</a></li>
-      <li><a href="#contact">Contacto</a></li>
-    </ul>
-  </nav>
-  <!-- Contenedor con foto + nombre -->
-  <div class="header-content">
-    <img src="foto.png" alt="Foto" class="perfil">
-    <h1>GT</h1>
-  </div>
-</header>
-  <!--==================== MAIN ====================-->
+  <!-- ==================== ENCABEZADO ==================== -->
+  <header class="header" id="header">
+    <!-- Barra de navegación (menú superior) -->
+    <nav class="nav">
+      <ul>
+        <!-- Cada enlace lleva a una sección de la página -->
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- Contenedor con foto y nombre -->
+    <div class="header-content">
+      <!-- Foto a la izquierda -->
+      <img src="foto.png" alt="Foto de Guido" class="perfil">
+      <!-- Texto a la derecha de la foto -->
+      <div class="info">
+        <h1>Guido Torres</h1>
+        <p>Economista | Analista Financiero</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== SECCIONES PRINCIPALES ==================== -->
   <main class="main">
-    <!-- HOME -->
-    <section class="home section" id="home">
-      <h2>Investigación y Análisis Económico | Investigación de Mercados | Antitrust</h2>
-      <p>Especializado en análisis de datos, modelos de scoring y depuración de información financiera.</p>
+    <!-- Sección de inicio -->
+    <section id="home">
+      <h2>Bienvenido</h2>
+      <p>Este es mi portafolio profesional en línea.</p>
     </section>
 
-    <!-- ABOUT -->
-    <section class="about section" id="about">
+    <!-- Sección sobre mí -->
+    <section id="about">
       <h2>Sobre mí</h2>
-      <p>Economista con experiencia en análisis financiero, detección de outliers y automatización de procesos con SQL, R y Python.</p>
+      <p>Soy economista con experiencia en análisis financiero, detección de outliers y automatización de procesos con SQL, R y Python.</p>
       <p><a href="cv.pdf" target="_blank">Descargar CV en PDF</a></p>
     </section>
 
-    <!-- SKILLS -->
-    <section class="skills section" id="skills">
+    <!-- Sección de habilidades -->
+    <section id="skills">
       <h2>Habilidades</h2>
       <ul>
-        <li>Excel avanzado (análisis financiero, IQR, desviación estándar)</li>
+        <li>Excel avanzado (IQR, desviación estándar)</li>
         <li>SQL intermedio (depuración y automatización)</li>
         <li>R y Python (modelos de datos, scripts básicos)</li>
       </ul>
     </section>
 
-    <!-- PROJECTS -->
-    <section class="projects section" id="projects">
+    <!-- Sección de proyectos -->
+    <section id="projects">
       <h2>Proyectos</h2>
       <div class="card">
         <h3>Modelo de Outliers en Excel</h3>
@@ -65,8 +76,8 @@
       </div>
     </section>
 
-    <!-- CONTACT -->
-    <section class="contact section" id="contact">
+    <!-- Sección de contacto -->
+    <section id="contact">
       <h2>Contacto</h2>
       <p>Email: guido@example.com</p>
       <p>LinkedIn: <a href="https://linkedin.com/in/guido">Perfil</a></p>
@@ -74,9 +85,9 @@
     </section>
   </main>
 
-  <!-- FOOTER -->
+  <!-- ==================== PIE DE PÁGINA ==================== -->
   <footer class="footer">
-    <p>© 2026 Guido - Economista | Análisis Financiero</p>
+    <p>© 2026 Guido Torres - Economista | Análisis Financiero</p>
   </footer>
 </body>
 </html>
