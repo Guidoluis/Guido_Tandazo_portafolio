@@ -5,26 +5,22 @@ body {
 }
 header {
   background: #00264d; color: white;
-  text-align: center; padding: 2em;
-}
-header .perfil {
-  width: 120px; height: 120px;
-  border-radius: 50%; margin-bottom: 1em;
+  padding: 1em;
 }
 nav ul {
-  list-style: none; margin: 0; padding: 0;
-  background: #004080; text-align: center;
+  list-style: none; display: flex; justify-content: center;
+  gap: 2em; margin: 0; padding: 0;
 }
-nav ul li {
-  display: inline-block; margin: 0 1em;
-}
-nav a {
-  color: white; text-decoration: none; font-weight: bold;
+nav a { color: white; text-decoration: none; font-weight: bold; }
+.home { text-align: center; padding: 3em; }
+.home .perfil {
+  width: 150px; height: 150px;
+  border-radius: 50%; margin-bottom: 1em;
 }
 section {
-  margin: 2em; padding: 1.5em;
-  background: white; border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 2em auto; padding: 2em;
+  max-width: 800px; background: white;
+  border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 .card {
   border: 1px solid #ddd; border-radius: 6px;
@@ -34,6 +30,5 @@ section {
 footer {
   background: #00264d; color: white;
   text-align: center; padding: 1em;
-  margin-top: 2em;
 }
 a:hover { text-decoration: underline; }
