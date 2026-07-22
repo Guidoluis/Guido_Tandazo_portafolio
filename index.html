@@ -2,32 +2,53 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Portafolio de Guido</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Guido - Economista</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <header>
-    <img src="foto.jpg" alt="Foto de Guido" class="perfil">
-    <h1>Guido</h1>
-    <p>Economista | Analista Financiero | Data Enthusiast</p>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav">
+      <h1>Guido</h1>
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <nav>
-    <ul>
-      <li><a href="#cv">Hoja de Vida</a></li>
-      <li><a href="#proyectos">Proyectos</a></li>
-      <li><a href="#contacto">Contacto</a></li>
-    </ul>
-  </nav>
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!-- HOME -->
+    <section class="home section" id="home">
+      <img src="assets/img/foto.jpg" alt="Foto de Guido" class="perfil">
+      <h2>Economista | Analista Financiero</h2>
+      <p>Especializado en análisis de datos, modelos de scoring y depuración de información financiera.</p>
+    </section>
 
-  <main>
-    <section id="cv">
-      <h2>Hoja de Vida</h2>
-      <p>Economista con experiencia en análisis financiero, depuración de datos y modelos de scoring.</p>
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <h2>Sobre mí</h2>
+      <p>Economista con experiencia en análisis financiero, detección de outliers y automatización de procesos con SQL, R y Python.</p>
       <p><a href="cv.pdf" target="_blank">Descargar CV en PDF</a></p>
     </section>
 
-    <section id="proyectos">
+    <!-- SKILLS -->
+    <section class="skills section" id="skills">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>Excel avanzado (análisis financiero, IQR, desviación estándar)</li>
+        <li>SQL intermedio (depuración y automatización)</li>
+        <li>R y Python (modelos de datos, scripts básicos)</li>
+      </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects section" id="projects">
       <h2>Proyectos</h2>
       <div class="card">
         <h3>Modelo de Outliers en Excel</h3>
@@ -41,7 +62,8 @@
       </div>
     </section>
 
-    <section id="contacto">
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
       <h2>Contacto</h2>
       <p>Email: guido@example.com</p>
       <p>LinkedIn: <a href="https://linkedin.com/in/guido">Perfil</a></p>
@@ -49,7 +71,8 @@
     </section>
   </main>
 
-  <footer>
+  <!-- FOOTER -->
+  <footer class="footer">
     <p>© 2026 Guido - Economista | Análisis Financiero</p>
   </footer>
 </body>
