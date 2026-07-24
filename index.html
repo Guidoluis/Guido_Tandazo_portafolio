@@ -1,15 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <!-- Configuración básica del documento --->
-  <meta charset="UTF-8"> <!-- Define que el texto usa caracteres latinos (acentos, ñ, etc.) -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que la página se adapte a móviles -->
-  <title>Guido Tandazo</title> <!-- Título que aparece en la pestaña del navegador -->
 
-  <!-- Vinculamos el archivo CSS externo -->
-  <link rel="stylesheet" href="style.css">
+    <!-- ==========================================================
+         META INFORMACIÓN DE LA PÁGINA
+
+         Todo lo que está dentro de <head> NO aparece
+         directamente en la página.
+
+         Sirve para darle información al navegador,
+         a Google y a otros buscadores.
+
+    ========================================================== -->
+
+    <!-- Permite escribir correctamente letras como:
+         á é í ó ú ñ -->
+    <meta charset="UTF-8">
+
+    <!-- Hace que la página se adapte a celulares y tablets -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Descripción que Google puede mostrar en los resultados -->
+    <meta name="description"
+          content="Portafolio profesional de Guido Tandazo. Economista especializado en competencia económica, econometría y análisis de datos.">
+
+    <!-- Autor -->
+    <meta name="author" content="Guido Tandazo">
+
+    <!-- Palabras clave -->
+    <meta name="keywords"
+          content="Economía, Econometría, Python, R, SQL, Data Analyst, Competition Economics">
+
+    <!-- Título de la pestaña -->
+    <title>Guido Tandazo | Economist & Data Analyst</title>
+
+    <!-- Conecta este archivo HTML con el archivo CSS -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
-<body>
+  
   <!-- ==================== ENCABEZADO ==================== -->
   <header class="header" id="header">
     <!-- Barra de navegación (menú superior) -->
@@ -49,7 +78,6 @@
     <section id="about">
       <h2>Sobre mí</h2>
       <p>Soy economista con experiencia en análisis financiero, detección de outliers y automatización de procesos con SQL, R y Python.</p>
-      <p><a href="cv.pdf" target="_blank">Descargar CV en PDF</a></p>
     </section>
 
     <!-- Sección de habilidades -->
